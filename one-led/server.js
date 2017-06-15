@@ -8,7 +8,7 @@ const gpio = require("@tibbo-tps/gpio");
 // Serve static assets from the 'public' folder
 app.use("/", express.static('public'));
 
-const led = gpio.init("S15A");
+const led = gpio.init("S15B");
 
 if(led.getDirection() === "input"){
     led.setDirection('output');
