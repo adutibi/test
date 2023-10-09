@@ -1,0 +1,8 @@
+.test
+{
+    width: 3000px;
+    height: 3000px;
+    background-image: url(download.jpeg);
+    background-repeat: repeat-y;
+    background-size: 50px;
+}
